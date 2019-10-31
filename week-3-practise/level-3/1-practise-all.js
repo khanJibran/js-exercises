@@ -63,9 +63,10 @@ var mm = arr
   .sort(function(a, b) {
     return a - b;
   });
+
 var m = mm[mm.length - 1];
 var jib = arr.filter(kik);
 function kik(ass) {
   return (ass.length = m);
 }
-console.log(jib);
+console.log(mm);

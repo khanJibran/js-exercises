@@ -1,8 +1,8 @@
-/*var message = "This is  string";
+var message = "This is  string";
 var messageType = typeof message;
 
 console.log(message);
-console.log(messageType);*/
+console.log(messageType);
 
 /*var umbrella = {
     color:   "pink",

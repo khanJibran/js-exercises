@@ -24,9 +24,19 @@ var voyagers = [
   "Avery family",
   "Archer family"
 ];
+newVoyagers = voyagers.filter(names);
+function names(newArr) {
+  if (newArr.charAt(0) === "A" && newArr.includes("family")) {
+    return newArr;
+  }
+}
 
-var colonisers; //complete this statement
-/*
- EXPECTED OUTPUT
+console.log(newVoyagers);
+var colonisers = voyagers.filter(newFamily);
+function newFamily(jj) {
+  return jj.charAt(0) == "A" && jj.includes("family");
+}
+
+ //EXPECTED OUTPUT
   [ 'Adam family', 'Avery family', 'Archer family' ]
-*/
+

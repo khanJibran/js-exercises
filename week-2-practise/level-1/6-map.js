@@ -5,9 +5,9 @@
 
 function tidyUpString(str) {
   return str
-    .trim()
     .toLowerCase()
-    .replace("/", "");
+    .replace("/", "")
+    .trim();
 }
 
 var mentors = ["/Daniel ", "irina ", " Gordon", "ashleigh "];

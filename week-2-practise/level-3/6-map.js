@@ -4,20 +4,19 @@
 //    - every resulting item run through the `captialise` function
 
 function tidyUpString(str) {
-  return str
-    .trim()
-    .toLowerCase()
-    .replace("/", "");
+  return str.map(ele => ele.replace("/", ""));
 }
 
 function captialise(str) {
-  // complete this function
+  return str.map(val => val[0].toUpperCase());
 }
 
 var mentors = ["/Daniel ", "irina ", " Gordon", "ashleigh "];
-var mentorsTidyAndCapitalised;
+var mentorsTidy = tidyUpString(mentors);
+var capitaliseStr = captialise(mentors);
 
-console.log(mentorsTidyAndCapitalised);
+console.log(mentorsTidy);
+console.log(capitaliseStr);
 
 /* 
   EXPECTED RESULT

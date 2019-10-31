@@ -9,7 +9,7 @@
 var numbers = [2, 2, 3];
 numbers.push(4);
 numbers[0] = 1;
- // Don't change this array literal declaration
+// Don't change this array literal declaration
 
 /* 
   DO NOT EDIT BELOW THIS LINE

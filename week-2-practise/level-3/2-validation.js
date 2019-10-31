@@ -2,18 +2,20 @@
 // - is a number
 // - is an integer (not a float)
 // - is not equal any of the numbers in the array `excludedNums`
-// Tip: write other small functions for each requirement
+// Tip: write other small functions for each requirement 
 
 var excludedNums = [6, 14, 91, 111];
 
 function validate(num) {
-  if(isNaN(num) == false){
-    if(NumberisInteger(num)){
-      if(num in excludedNums){
-        return true;
-      }return false;
-  }return false;
-}return false;
+  if (
+    typeof num === "Number" &&
+    Number.isInteger(num) &&
+    num !== excludedNums 
+  ) {
+    return true;
+  } else {
+    false;
+  }
 }
 
 console.log(validate(6));

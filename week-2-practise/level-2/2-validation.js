@@ -5,13 +5,10 @@
 // Tip: write other small functions for each requirement
 
 function validate(num) {
-  if (typeof num == "number" && num > 0 && num<=100){
-      return true;
-  }else{
-    return false;
-  }
+  return typeof num == "number" && num > 0 && num <= 100 ? true : false;
 }
-  /* function validate(num) {
+
+/* function validate(num) {
   if (typeof num == "number" && num > 0 ){
       if (num <= 100){
        return true;

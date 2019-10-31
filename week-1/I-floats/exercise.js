@@ -7,3 +7,9 @@ var precisePercentage = Math.round(studentsPercentage, mentorsPercentage);
 console.log(studentsPercentage);
 console.log(mentorsPercentage);
 console.log(precisePercentage);
+/*
+
+var names = ["delta", "AlphaBeta", "Gama", "Alpha", "Jibran"];
+var namesLength = names.sort((a, b) => a.length - b.length)[names.length - 1];
+console.log(namesLength);
+*/

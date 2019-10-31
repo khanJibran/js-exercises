@@ -11,24 +11,24 @@
 var bush1BerryColours = ["pink", "pink", "pink", "neon", "pink", "transparent"];
 var bush2BerryColours = ["pink", "pink", "pink", "pink"];
 
-var bush1SafeToEat = bush1BerryColours.every(Jibran);
-function Jibran(string) {
-  if(string === "pink")
-  return string;
+var bush1SafeToEat = bush1BerryColours.every(safeBush);
+function safeBush(string) {
+  if (string === "pink") return string;
 } //Complete this statement
-var bush2SafeToEat = bush2BerryColours.every(Jibran); //Complete this statement
+var bush2SafeToEat = bush2BerryColours.every(safeBush);
+//Complete this statement
+console.log(safeBush(string));
+// if (bush1SafeToEat) {
+//   console.log("Bush 1 is safe to eat from");
+// } else {
+//   console.log("Toxic! Leave bush 1 alone");
+// }
 
-if (bush1SafeToEat) {
-  console.log("Bush 1 is safe to eat from");
-} else {
-  console.log("Toxic! Leave bush 1 alone");
-}
-
-if (bush2SafeToEat) {
-  console.log("Bush 2 is safe to eat");
-} else {
-  console.log("Toxic! Leave bush 2 alone");
-}
+// if (bush2SafeToEat) {
+//   console.log("Bush 2 is safe to eat");
+// } else {
+//   console.log("Toxic! Leave bush 2 alone");
+// }
 
 /*
  EXPECTED OUTPUT

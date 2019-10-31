@@ -11,6 +11,6 @@ if (isHappy) {
 
 /* 
   EXPECTED RESULT
-  ---------------
+  ---------------no
   I am happy
 */

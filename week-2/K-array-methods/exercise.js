@@ -3,9 +3,10 @@
   --------------------
 */
 
-var numbers = [3, 2, 1];
-var sortedNumbers = numbers.sort(); // complete this statement
-
+var numbers = [13, 2, 1];
+var sortedNumbers = numbers.sort(function(x, y) {
+  return x - y;
+}); // complete this statement
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

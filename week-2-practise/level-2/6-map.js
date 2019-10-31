@@ -4,11 +4,10 @@
 //    - each item in `percentages` formatted by your function
 
 var percentages = [1, 23, 92, 18];
-function milley (num){
- var mj = "%";
- return num + mj;
+function percentage(num) {
+  return num + "%";
 }
-var percentagesFormatted = percentages.map(milley);
+var percentagesFormatted = percentages.map(percentage);
 console.log(percentagesFormatted);
 
 /* 

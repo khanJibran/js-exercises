@@ -12,7 +12,9 @@ var londonLocations = [
   ["Greenwich", "tube", "bus", "river boat"]
 ];
 
-var locationsByBoat; // complete this line
+var locationsByBoat = londonLocations
+  .filter(jib => jib.includes("river boat"))
+  .map(k => k[0]); // complete this line
 
 console.log(locationsByBoat);
 

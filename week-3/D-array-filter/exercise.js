@@ -8,19 +8,20 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-var pairsByIndex = pairsByIndexRaw.filter(jibran);
-function jibran(arr) {
-  if (arr.length === 2) {
+var pairsByIndex = pairsByIndexRaw.filter(nonArray);
+function nonArray(arr) {
+  if (arr === 2 && typeof arr === Array && typeof arr === "Number") {
     return arr;
   }
 } // Complete this statement
 
-var students = ["Islam", "Lesley", "Harun", "Rukmini"];
-var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
+// var students = ["Islam", "Lesley", "Harun", "Rukmini"];
+// var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
-var pairs = pairsByIndex.map(function(indexes) {
-  var student = students[indexes[0]];
-  var mentor = mentors[indexes[1]];
-  return [student, mentor];
-});
-console.log(pairs);
+// var pairs = pairsByIndex.map(function(indexes) {
+//   var student = students[indexes[0]];
+//   var mentor = mentors[indexes[1]];
+//   return [student, mentor];
+// });
+
+console.log(pairsByIndex);

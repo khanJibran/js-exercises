@@ -7,7 +7,11 @@
 var ukNations = ["Scotland", "Wales", "England", "Northern Ireland"];
 
 function isInUK(country) {
-  return; // complete this statement
+  if (country ===  {
+    return true;
+  } else {
+    false;
+  } // complete this statement
 }
 
 /* 

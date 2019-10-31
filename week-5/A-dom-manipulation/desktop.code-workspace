@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "/home/cyf/js-exercises/week-1"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-1-practise"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-2"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-2-practise"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-3"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-3-practise"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-4"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-4-practise"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-5"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-5-practise"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-8"
+		},
+		{
+			"path": "/home/cyf/js-exercises/week-8-practise"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "week-5"
+	}
+}

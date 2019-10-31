@@ -11,7 +11,13 @@ Find the oxygen level of the first safe planet - Oxygen between 19.5 and 23.5
 
 var oxygenLevels = [24.2, 11.3, 19.9, 23.1, 29.3, 20.2];
 
-var safePlanetOL; //Complete this statement
+var safePlanetOxygenLevel = oxygenLevels.find(Jibran);
+function Jibran(num) {
+  if (num > 19.5 && num < 23.5)
+  return num;
+
+  
+} //Complete this statement
 
 console.log(safePlanetOxygenLevel + "%");
 

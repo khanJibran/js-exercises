@@ -4,8 +4,9 @@
 // - return a new array with the first item matching `valueToRemove` removed
 // TIP: Use the .indexOf() method
 
-function remove(arr, valueToRemove) {
-  return; // complete this statement
+function remove(arr, valueToRemove) {                        
+  var milley = arr.indexOf(valueToRemove);
+   return arr.slice(0,milley).concat(arr.slice(milley+1));// complete this statement
 }
 
 /* 
@@ -19,6 +20,8 @@ var newNames = remove(names, "Ashleigh");
 
 console.log(newNumbers);
 console.log(newNames);
+console.log(numbers);
+console.log(names);
 
 /* 
   EXPECTED RESULT

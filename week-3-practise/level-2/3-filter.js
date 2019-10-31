@@ -25,10 +25,7 @@ var voyagers = [
   "Archer family"
 ];
 
-var colonisers; // Complete this statement
-
-console.log(colonisers);
-
+var colonisers; //complete this statement
 /*
  EXPECTED OUTPUT
   [ 'Adam family', 'Avery family', 'Archer family' ]

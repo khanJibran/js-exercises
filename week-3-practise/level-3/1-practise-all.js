@@ -41,8 +41,31 @@ PreviousPassword = ["fhD8!yrjj", "ttkTu.wer3", "dvyyeyY!5", "qwbfj76%", "tytT372
 Expected Result:
 PasswordValidationResult=  [false, false, false, false, true]
 
-*/
+
 
 var password = ["Se%5", "TktE.TJTU", "384HsHF", "dvyyeyY!5", "tryT3729."];
 
 console.log(PasswordValidationResult)
+*/
+var arr = [
+  "jib",
+  "khanjjjj",
+  "zeemmmmms",
+  "kashan",
+  "shan",
+  "fu",
+  "zing",
+  "jayasuriya"
+];
+
+var mm = arr
+  .map(x => x.length)
+  .sort(function(a, b) {
+    return a - b;
+  });
+var m = mm[mm.length - 1];
+var jib = arr.filter(kik);
+function kik(ass) {
+  return (ass.length = m);
+}
+console.log(jib);

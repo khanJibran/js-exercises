@@ -5,13 +5,15 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+ return arr.shift();
+// complete this statement
 }
+//return arr[0];
 
 function last(arr) {
-  return; // complete this statement
+ return arr.pop();// complete this statement
 }
-
+//return arr[arr.length-1];
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

@@ -4,7 +4,9 @@
   This program needs some variables to log the expected result.
   Add the required variables with the correct boolean values assigned.
 */
-
+var mozafarIsCool = false;
+var calculationCorrect = true;
+var moreThan10Students = false;
 var codeYourFutureIsGreat = true;
 
 /* 
@@ -24,3 +26,4 @@ console.log("Are there more than 10 students?", moreThan10Students);
   Does 1 + 1 = 2? true
   Are there more than 10 students? false
 */
+

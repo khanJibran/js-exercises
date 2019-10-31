@@ -6,7 +6,7 @@ This exercise will give you practice in getting the keys of objects inside other
 
 Use the provided console.log statements below and follow the instructions above them.
 
-*/
+
 
 var storeBranches = {
 
@@ -45,4 +45,17 @@ console.log()
 // prints [ 'head_intern', 'intern' ]
 console.log()
 
-// ONLY EDIT ABOVE THIS LINE
+// ONLY EDIT ABOVE THIS LINE */
+
+var arr = [
+  "jib",
+  "khanjjjj",
+  "zeemmmmms",
+  "kashan",
+  "shan",
+  "fu",
+  "zing",
+  "jayasuriya"
+];
+var x = arr.sort((a, b) => a.length - b.length)[arr.length - 1];
+console.log(x);

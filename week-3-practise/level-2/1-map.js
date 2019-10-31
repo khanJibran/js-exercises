@@ -12,7 +12,7 @@ var londonLocations = [
   ["Greenwich", "tube", "bus", "river boat"]
 ];
 
-var locationsByBoat;
+var locationsByBoat; // complete this line
 
 console.log(locationsByBoat);
 
